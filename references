@@ -1,3 +1,14 @@
 ##notes perso pour developpement web
 wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | $sudo apt-key add -
 echo "deb https://packages.cloudfoundry.org/debian stable main" | $sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
+
+
+
+
+source:wireshark (source, net)
+version:4.0.6-1
+maintainter:Balint Reczey
+arch:any all
+std-ver:4.6.0.1
+VCS:Git (browse)
+
