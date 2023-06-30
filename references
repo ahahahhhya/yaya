@@ -2,6 +2,8 @@
 wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | $sudo apt-key add -
 echo "deb https://packages.cloudfoundry.org/debian stable main" | $sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
 
+wget -O https://github.com/VSCodium/vscodium/releases/download/1.79.2.23166/VSCodium-linux-arm64-1.79.2.23166.tar.gz
+
 
 deb https://packages.debian.org/source/stable/wireshark stable main
 
