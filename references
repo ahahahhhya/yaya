@@ -6,6 +6,7 @@ wget -O https://github.com/VSCodium/vscodium/releases/download/1.79.2.23166/VSCo
 
 https://chrome.google.com/webstore/detail/efbjojhplkelaegfbieplglfidafgoka
 
+https://support.virustotal.com/hc/en-us/articles/115002700745-Browser-Extensions#google-chrome
 
 deb https://packages.debian.org/source/stable/wireshark stable main
 
