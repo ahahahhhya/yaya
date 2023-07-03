@@ -1,7 +1,7 @@
 ##notes perso pour developpement web
  
 wget -qO - https://www.aptly.info/pubkey.txt | sudo apt-key add -
-
+gpg --no-default-keyring --keyring /usr/share/keyrings/debian-archive-keyring.gpg --export | gpg --no-default-keyring --keyring trustedkeys.gpg --import
 
 gpg -ignore-signatures 
 ou configuration setting :
