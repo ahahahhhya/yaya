@@ -1,5 +1,6 @@
 ##notes perso pour developpement web
-vypger-pAqjy2-qisbix
+ 
+wget -qO - https://www.aptly.info/pubkey.txt | sudo apt-key add -
 
 
 gpg -ignore-signatures 
