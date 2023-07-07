@@ -5,6 +5,11 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 $sudo apt update && $sudo apt install terraform
 wget -kqO https://www.hashicorp.com/.well-known/pgp-key.txt | $sudo gpg export --sign
 
+https://75000e1e-ec9a-4ea6-b63e-c95547e84d9c.boundary.hashicorp.cloud
+
+
+
+
 gpg --import hashicorp.asc
 
 # Download the archive and signature files.
