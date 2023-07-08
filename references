@@ -6,7 +6,17 @@ $sudo apt update && $sudo apt install terraform
 wget -kqO https://www.hashicorp.com/.well-known/pgp-key.txt | $sudo gpg export --sign
 
 https://75000e1e-ec9a-4ea6-b63e-c95547e84d9c.boundary.hashicorp.cloud
+echo $PATH
+mv ~/Downloads/terraform $PREFIX/local/bin/
 
+
+
+
+
+
+git clone https://github.com/hashicorp/tfc-getting-started.git
+cd tfc-getting-started
+./scripts/setup.sh
 
 curl -fsSL https://apt.releases.hashicorp.com/gpg | $sudo apt-key add - ;\
 $sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com lsb_release -cs main" ;\
