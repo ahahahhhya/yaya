@@ -8,7 +8,7 @@ wget -kqO https://www.hashicorp.com/.well-known/pgp-key.txt | $sudo gpg export -
 https://75000e1e-ec9a-4ea6-b63e-c95547e84d9c.boundary.hashicorp.cloud
 echo $PATH
 mv ~/Downloads/terraform $PREFIX/local/bin/
-
+touch ~/.bashrc
 
 
 
