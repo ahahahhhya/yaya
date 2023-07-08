@@ -8,6 +8,12 @@ wget -kqO https://www.hashicorp.com/.well-known/pgp-key.txt | $sudo gpg export -
 https://75000e1e-ec9a-4ea6-b63e-c95547e84d9c.boundary.hashicorp.cloud
 
 
+curl -fsSL https://apt.releases.hashicorp.com/gpg | $sudo apt-key add - ;\
+$sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com lsb_release -cs main" ;\
+$sudo apt-get update && $sudo apt-get install boundary-enterprise -y
+
+
+
 
 
 gpg --import hashicorp.asc
