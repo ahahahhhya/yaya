@@ -2,7 +2,7 @@
 
 https://www.glew.io/articles/what-are-facebook-link-shims-and-how-do-they-affect-your-data
 
-
+$sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 
 
 
