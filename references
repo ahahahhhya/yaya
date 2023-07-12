@@ -1,4 +1,12 @@
 ##notes perso pour developpement web
+
+libwireshark0.install
+usr/lib/*/libwireshark.so.*
+usr/lib/*/wireshark/plugins/*/codecs/*.so
+usr/lib/*/wireshark/plugins/*/epan/*.so
+
+
+
 . --> wireshark.spec.in
 # Note that this is NOT a relocatable package
 # XXX is this still true? https://fedoraproject.org/wiki/Packaging:Cmake
