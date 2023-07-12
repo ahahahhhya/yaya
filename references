@@ -4,7 +4,10 @@ https://www.glew.io/articles/what-are-facebook-link-shims-and-how-do-they-affect
 
 $sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 
-
+$sudo apt-get update && $sudo apt-get install -y gnupg software-properties-common
+wget -O- https://apt.releases.hashicorp.com/gpg |
+gpg --dearmor |
+$sudo tee $PREFIX/share/keyrings/hashicorp-archive-keyring.gpg
 
 
 
