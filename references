@@ -2,7 +2,7 @@
 
 deb http://deb.debian.org/debian bullseye-backports main
 
-
+wget https://download.wireguard.com/android-module/modules.txt.sig | $sudo apt-key add -
 
 
 
