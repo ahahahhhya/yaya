@@ -1,4 +1,11 @@
 ##notes perso pour developpement web
+
+deb http://deb.debian.org/debian bullseye-backports main
+
+
+
+
+
 wireshark/headers-check.c
 /* headers-check.c
  *
