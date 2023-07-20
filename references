@@ -3,6 +3,20 @@
 curl https://goteleport.com/static/install.sh | bash -s 13.2.2
 curl https://goteleport.com/static/install-connect.sh | bash -s 13.2.2
 
+~/.gem/lib/rubygems.rb
+# File tmp/rubies/ruby-3.2.0/lib/rubygems.rb, line 302
+def self.bindir(install_dir=Gem.dir)
+  return File.join install_dir, "bin" unless
+    install_dir.to_s == Gem.default_dir.to_s
+  Gem.default_bindir
+end
+
+
+
+
+
+
+
 - build.gradle
 
 plugins {
