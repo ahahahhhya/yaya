@@ -4,6 +4,11 @@ curl https://goteleport.com/static/install.sh | bash -s 13.2.2
 curl https://goteleport.com/static/install-connect.sh | bash -s 13.2.2
 
 - build.gradle
+
+plugins {
+   id 'org.gradle.java'
+ }
+ 
 implementation "com.algolia:instantsearch-android:$instantsearch_version"
 
 hello_algolia.rb
