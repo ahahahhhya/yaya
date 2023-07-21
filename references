@@ -3,6 +3,12 @@
 curl https://goteleport.com/static/install.sh | bash -s 13.2.2
 curl https://goteleport.com/static/install-connect.sh | bash -s 13.2.2
 
+wget https://downloads.mitmproxy.org/9.0.1/mitmproxy-9.0.1-linux.tar.gz | $sudo mkdir -p $PREFIX/opt/mitmproxy | $sudo tee $PREFIX/opt/mitmproxy | tar -xzf mitmproxy-9.0.1-linux.tar.gz  
+
+
+
+
+
 ~/.gem/lib/rubygems.rb
 # File tmp/rubies/ruby-3.2.0/lib/rubygems.rb, line 302
 def self.bindir(install_dir=Gem.dir)
