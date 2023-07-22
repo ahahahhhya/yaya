@@ -5,7 +5,7 @@ curl https://goteleport.com/static/install-connect.sh | bash -s 13.2.2
 
 wget https://downloads.mitmproxy.org/9.0.1/mitmproxy-9.0.1-linux.tar.gz | $sudo mkdir -p $PREFIX/opt/mitmproxy | $sudo tee $PREFIX/opt/mitmproxy | tar -xzf mitmproxy-9.0.1-linux.tar.gz  
 
-
+wget https://www.openwall.com/john/k/john-1.9.0.tar.xz | $sudo tar -xzf john-1.9.0.tar.xz
 
 
 
