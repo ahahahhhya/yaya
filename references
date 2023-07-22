@@ -1,4 +1,17 @@
 ##notes perso pour developpement 
+NETLIFY POUR MON SITE
+npm install netlify-cli -g
+
+
+
+
+
+
+
+
+
+
+
 
 curl https://goteleport.com/static/install.sh | bash -s 13.2.2
 curl https://goteleport.com/static/install-connect.sh | bash -s 13.2.2
