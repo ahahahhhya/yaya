@@ -2,10 +2,9 @@
 NETLIFY POUR MON SITE
 npm install --save-dev netlify-cli
  
-$ mkdir -p ./netlify-cli/ && cd ./netlify-cli/
-$ npm install
-added 154 packages in 10s
-$ ls | grep package-lock
+ mkdir -p ./netlify-cli/ && cd ./netlify-cli/
+ npm install
+ ls | grep package-lock
 
 
 
