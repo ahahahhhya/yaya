@@ -5,6 +5,7 @@ npm install --save-dev netlify-cli
  mkdir -p ./netlify-cli/ && cd ./netlify-cli/
  npm install
  ls | grep package-lock
+npm install @netlify/functions
 
 
 
