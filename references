@@ -1,7 +1,6 @@
 ##notes perso pour developpement 
 NETLIFY POUR MON SITE
 npm install --save-dev netlify-cli
- 
  mkdir -p ./netlify-cli/ && cd ./netlify-cli/
  npm install
  ls | grep package-lock
@@ -9,6 +8,11 @@ npm install --save-dev netlify-cli
 npm install @netlify/functions
 netlify dev --context production
 netlify build --dry
+
+
+
+metasploit
+deb http://downloads.metasploit.com/data/releases/metasploit-framework/apt lucid/main metasploit-framework 6.1.14+20211108112548~1rapid7-1
 
 
 
