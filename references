@@ -8,6 +8,7 @@ npm install --save-dev netlify-cli
 
 npm install @netlify/functions
 netlify dev --context production
+netlify build --dry
 
 
 
