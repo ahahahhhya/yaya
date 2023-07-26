@@ -8,6 +8,9 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 $sudo apt update && $sudo apt install terraform
 
 
+
+
+https://master.dl.sourceforge.net/project/vive-input-utilityunity.mirror/v1.18.1/Vive%20Input%20Utility%20v1.18.1.zip?viasf=1
 https://sourceforge.net/projects/kaais/
 
 
