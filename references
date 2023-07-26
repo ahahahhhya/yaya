@@ -3,6 +3,11 @@ wget -q -O - https://nightly.odoo.com/odoo.key | $sudo gpg --dearmor -o $PREFIX/
  echo 'deb [signed-by=/usr/share/keyrings/odoo-archive-keyring.gpg] https://nightly.odoo.com/16.0/nightly/deb/ ./' | $sudo tee $PREFIX/etc/apt/sources.list.d/odoo.list
  $sudo apt-get update && $sudo apt-get install odoo
 
+wget -O- https://apt.releases.hashicorp.com/gpg | $sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+$sudo apt update && $sudo apt install terraform
+
+
 https://sourceforge.net/projects/kaais/
 
 
