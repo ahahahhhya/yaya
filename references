@@ -3,6 +3,15 @@ wget -q -O - https://nightly.odoo.com/odoo.key | $sudo gpg --dearmor -o $PREFIX/
  echo 'deb [signed-by=/usr/share/keyrings/odoo-archive-keyring.gpg] https://nightly.odoo.com/16.0/nightly/deb/ ./' | $sudo tee $PREFIX/etc/apt/sources.list.d/odoo.list
  $sudo apt-get update && $sudo apt-get install odoo
 
+https://sourceforge.net/projects/kaais/
+
+
+
+
+
+
+
+
 
 NETLIFY POUR MON SITE
 npm install --save-dev netlify-cli
