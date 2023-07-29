@@ -1,4 +1,13 @@
 ##notes perso pour developpement 
+
+wget --quiet \
+	--method GET \
+	--header 'X-RapidAPI-Key: 6be1a3b335msh3386c2ce9605218p13e5b0jsne0fbb6ba6565' \
+	--header 'X-RapidAPI-Host: nimble-scraper.p.rapidapi.com' \
+	--output-document \
+	- 'https://nimble-scraper.p.rapidapi.com/?url=https%3A%2F%2Fwww.instagram.com%2Ftareekyagoubi%2Fmanifest.js%2F'
+
+
 wget -q -O - https://nightly.odoo.com/odoo.key | $sudo gpg --dearmor -o $PREFIX/share/keyrings/odoo-archive-keyring.gpg
  echo 'deb [signed-by=/usr/share/keyrings/odoo-archive-keyring.gpg] https://nightly.odoo.com/16.0/nightly/deb/ ./' | $sudo tee $PREFIX/etc/apt/sources.list.d/odoo.list
  $sudo apt-get update && $sudo apt-get install odoo
