@@ -1,6 +1,13 @@
 ##notes perso pour developpement 
 npm install @notionhq/client
 
+	
+deb https://sourceware.org/git/2.4.1/ stable release
+
+
+
+
+
 
 $sudo apt update
 $sudo apt install -y -V ca-certificates lsb-release wget
