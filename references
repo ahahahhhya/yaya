@@ -5,7 +5,7 @@ npm install @notionhq/client
 deb https://sourceware.org/git/2.4.1/ stable release
 deb ftp://mirrors.kernel.org/sourceware/ stable release
 deb http://mirrors.kernel.org/sourceware/ stable release
-
+deb https://packages.debian.org/source/stable/systemtap stable main
 
 
 $sudo apt update
