@@ -3,8 +3,7 @@ npm install @notionhq/client
 
 	
 deb https://sourceware.org/git/2.4.1/ stable release
-
-
+deb ftp://mirrors.kernel.org/sourceware/ stable release
 
 
 
