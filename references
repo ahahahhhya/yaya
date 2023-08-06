@@ -5,6 +5,8 @@ SITE WEB :
 https://webflow.com/design/ucode-library-site-b7162e
 _____________________
 
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-8.9.0-amd64.deb
+sudo dpkg -i filebeat-8.9.0-amd64.deb
 
 
 
