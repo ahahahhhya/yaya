@@ -1,5 +1,12 @@
 ##notes perso pour developpement 
 npm install @notionhq/client
+pip install datasploit
+datasploit_config
+# git clone https://github.com/datasploit/datasploit /etc/datasploit
+# cd /etc/datasploit/
+# pip install -r requirements.txt
+# mv config_sample.py config.py
+# vi config.py
 
 SITE WEB : 
 https://webflow.com/design/ucode-library-site-b7162e
