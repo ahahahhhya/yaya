@@ -2,6 +2,16 @@
 https://www.jotform.com/app/232216639998269
 
 
+export SENDGRID_API_KEY='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'
+
+curl --request POST \
+  --url https://api.sendgrid.com/v3/mail/send \
+  --header "Authorization: Bearer $SENDGRID_API_KEY" \
+  --header 'Content-Type: application/json' \
+  --data '{"personalizations": [{"to": [{"email": "test@example.com"}]}],"from": {"email": "test@example.com"},"subject": "Sending with SendGrid is Fun","content": [{"type": "text/plain", "value": "and easy to do anywhere, even with cURL"}]}'
+
+
+
 npm install @notionhq/client
 pip install datasploit
 datasploit_config
