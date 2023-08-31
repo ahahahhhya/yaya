@@ -1,7 +1,7 @@
 ##notes perso pour developpement 
 code source formulaire site
 
-CODE POUR site ONESIGNAL
+===CODE POUR site ONESIGNAL====
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
   window.OneSignalDeferred = window.OneSignalDeferred || [];
