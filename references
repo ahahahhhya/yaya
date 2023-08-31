@@ -1,6 +1,18 @@
 ##notes perso pour developpement 
 code source formulaire site
 
+CODE POUR site ONESIGNAL
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "0a6fb2f8-fea3-49a1-98fa-47303fb6ecfc",
+    });
+  });
+</script>
+
+
 Mon compte app:
 <iframe id="JotFormIFrame-232092014953249" title="Mon compte" src="https://eu.jotform.com/app/232092014953249?appEmbedded=1" style="height:px; width:px; border: 0;"></iframe>
 IMAGEKIT .io(CODE SOURCE SITEWEB A AJOUTER AVEC FORMULAIRE
