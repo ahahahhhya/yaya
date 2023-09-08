@@ -1,4 +1,27 @@
 ##notes perso pour developpement 
+
+APP >> site
+const client = new Client();
+client
+   .setEndpoint('https://cloud.appwrite.io/v1')
+   .setProject('644ff1c9d31507e513c2');
+
+const account = new Account(client);
+
+const result = account.createEmailSession(
+  'walterobrian@example.com',
+  'password'
+);
+
+result.then(function (response) {
+   console.log(response);
+}, function (error) {
+   console.log(error);
+});
+
+
+
+
 deb http://yum.thousandeyes.com/ thousandeyes main
 deb http://apt.thousandeyes.com/ thousandeyes main
 
