@@ -1,4 +1,14 @@
 ##notes perso pour developpement 
+html pour mon site :
+<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" data-fw-param="163363/"></script> <!-- end feedwind code -->
+iframe:
+<iframe src="https://feed.mikle.com/widget/v2/163363/?preloader-text=Loading" height="402px" width="100%" class="fw-iframe" scrolling="no" frameborder="0"></iframe>
+
+
+
+
+
+
 
 APP >> site
 const client = new Client();
