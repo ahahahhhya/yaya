@@ -5,9 +5,11 @@ Site web:
 <script src="//d2wy8f7a9ursnm.cloudfront.net/v7/bugsnag.min.js"></script>
 <script>Bugsnag.start({ apiKey: 'c8c5dadf974e4d542bff3b331361b7a4' })</script>
 Bugsnag.notify(new Error('Test error'))
+bugsnag NPM:
+npm install --save @bugsnag/js
 
-
-
+import Bugsnag from '@bugsnag/js'
+Bugsnag.start({ apiKey: 'c8c5dadf974e4d542bff3b331361b7a4' })
 
 
 miroir apt:
