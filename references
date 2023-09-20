@@ -1,5 +1,10 @@
 ##notes perso pour developpement 
 
+deb http://cloud.r-project.org/bin/linux/debian bullseye-cran40
+
+
+
+
 Site web:
 
 <script src="//d2wy8f7a9ursnm.cloudfront.net/v7/bugsnag.min.js"></script>
