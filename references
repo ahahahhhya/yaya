@@ -1,7 +1,7 @@
 ##notes perso pour developpement 
 
 deb http://cloud.r-project.org/bin/linux/debian bullseye-cran40
-
+deb-src cloud.r-project.org/bin/linux/debian bullseye-cran40
 
 
 
