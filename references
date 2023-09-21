@@ -2,6 +2,28 @@
 
 deb http://cloud.r-project.org/bin/linux/debian bullseye-cran40
 deb-src cloud.r-project.org/bin/linux/debian bullseye-cran40
+Canada
+mirror.its.dal.ca  @	https	17 hours
+	renewed
+	ok
+muug.ca  @	https	1 hour
+	renewed
+	ok
+mirror.quantum5.ca  @	https	17 hours
+	renewed
+	ok
+ctan.mirror.rafal.ca  @	https	4 hours
+	renewed
+	ok
+mirror.csclub.uwaterloo.ca  @	https	5 hours
+	renewed
+	ok
+ctan.mirror.globo.tech  @	https	4 hours
+	renewed
+	ok
+Chile
+
+mount -t iso9660 -o ro,loop,noauto /lib/libxml2.so/mnt
 
 
 
