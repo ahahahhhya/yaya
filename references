@@ -1,5 +1,12 @@
 ##notes perso pour developpement 
 
+deb http://sunsite.doc.ic.ac.uk/packages/mirror/ stable main
+deb ftp://ftp.sai.msu.su/pub/unix/FTP/mirror/ stable main
+
+
+
+
+
 deb http://cloud.r-project.org/bin/linux/debian bullseye-cran40
 deb-src cloud.r-project.org/bin/linux/debian bullseye-cran40
 Canada
