@@ -1,4 +1,8 @@
 ##notes perso pour developpement 
+
+deb https://mirrors.xtom.com/ stable main
+deb https://cache.ruby-lang.org/pub/ruby/binaries/ ruby-3.3 stable
+
 http://packages.debian.org/stable/nmap
 deb http://sunsite.doc.ic.ac.uk/packages/mirror/ stable main
 deb ftp://ftp.sai.msu.su/pub/unix/FTP/mirror/ stable main
