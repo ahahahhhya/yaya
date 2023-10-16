@@ -1,5 +1,5 @@
 ##notes perso pour developpement 
-
+http://packages.debian.org/stable/nmap
 deb http://sunsite.doc.ic.ac.uk/packages/mirror/ stable main
 deb ftp://ftp.sai.msu.su/pub/unix/FTP/mirror/ stable main
 deb http://rg2-xcpng-mirror.reptigo.fr/ stable main
