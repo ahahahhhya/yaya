@@ -1,5 +1,8 @@
 ##notes perso pour developpement 
 
+deb https://hex.pm/packages elixir stable
+
+
 deb https://mirrors.xtom.com/ stable main
 deb https://cache.ruby-lang.org/pub/ruby/binaries/ ruby-3.3 stable
 
