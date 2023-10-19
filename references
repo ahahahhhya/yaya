@@ -1,5 +1,8 @@
 ##notes perso pour developpement 
 
+apt install getconf
+curl -sS https://starship.rs/install.sh | sh -s -- --bin-dir /data/data/com.termux/files/usr/bin
+
 deb https://hex.pm/packages elixir stable
 deb https://repo.hex.pm/ stable main
 
