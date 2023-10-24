@@ -1,5 +1,13 @@
 ##notes perso pour developpement 
 
+
+deb https://s3.amazonaws.com/repo.deb.cyberduck.io stable main
+
+
+
+
+
+
 deb [signed-by=/usr/share/keyrings/rabbitmq.E495BB49CC4BBE5B.gpg] https://ppa2.novemberain.com/rabbitmq/rabbitmq-erlang/deb/ubuntu $distribution main
 deb-src [signed-by=/usr/share/keyrings/rabbitmq.E495BB49CC4BBE5B.gpg] https://ppa2.novemberain.com/rabbitmq/rabbitmq-erlang/deb/ubuntu $distribution main
 deb https://dl.winehq.org/wine-builds/debian/dists/bullseye/winehq-bullseye.sources bullseye main
