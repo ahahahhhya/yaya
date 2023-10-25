@@ -4,6 +4,9 @@
 deb https://s3.amazonaws.com/repo.deb.cyberduck.io stable main
 https://dl.min.io/client/mc/release/linux-arm64/mc minio arm64
 
+deb http://www.deb-multimedia.org stable main
+deb http://mirror.dst.ca/fedora/ aarch64 stable
+
 
 
 
