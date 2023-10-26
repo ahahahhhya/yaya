@@ -2,7 +2,7 @@
 
 deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb stable main
 
-
+deb https://mirror.openshift.com/pub/openshift-v4/clients/helm/latest/ openshift-v4 main
 
 
 deb https://s3.amazonaws.com/repo.deb.cyberduck.io stable main
