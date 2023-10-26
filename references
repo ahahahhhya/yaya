@@ -1,5 +1,9 @@
 ##notes perso pour developpement 
 
+deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb stable main
+
+
+
 
 deb https://s3.amazonaws.com/repo.deb.cyberduck.io stable main
 https://dl.min.io/client/mc/release/linux-arm64/mc minio arm64
