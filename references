@@ -1,4 +1,4 @@
-##notes perso pour developpement 
+##notes perso pour deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main
 
 deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb stable main
 
