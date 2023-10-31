@@ -1,4 +1,6 @@
-##notes perso pour deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main
+##notes perso pour 
+deb https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/ stable main
+deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main
 
 deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb stable main
 
