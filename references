@@ -1,5 +1,11 @@
 ##notes perso pour 
 
+deb http://apt.puppetlabs.com stable main
+
+
+
+
+
 deb http://apt.llvm.org/bullseye/ llvm-toolchain-bullseye main
 deb-src http://apt.llvm.org/bullseye/ llvm-toolchain-bullseye main
 deb http://apt.llvm.org/bullseye/ llvm-toolchain-bullseye-16 main
