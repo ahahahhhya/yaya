@@ -1,6 +1,11 @@
 ##notes perso pour 
 
 deb http://apt.puppetlabs.com stable main
+deb http://snapshot.debian.org/debian bullseye main
+deb     https://snapshot.debian.org/archive/debian/ bullseye main
+deb-src https://snapshot.debian.org/archive/debian/ bullseye main
+deb     https://snapshot.debian.org/archive/debian-security/ bullseye/updates main
+deb-src https://snapshot.debian.org/archive/debian-security/ bullseye/updates main
 
 
 
