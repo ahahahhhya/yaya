@@ -6,7 +6,7 @@ deb     https://snapshot.debian.org/archive/debian/ bullseye main
 deb-src https://snapshot.debian.org/archive/debian/ bullseye main
 deb     https://snapshot.debian.org/archive/debian-security/ bullseye/updates main
 deb-src https://snapshot.debian.org/archive/debian-security/ bullseye/updates main
-
+deb https://netbeans.apache.org/ stable edge
 
 
 
