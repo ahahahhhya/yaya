@@ -3,7 +3,8 @@
 deb https://mirror.planetunix.net/pub/OpenBSD/ stable main
 deb https://ftp.openbsd.org/pub/OpenBSD/ stable main
 deb https://openbsd.cs.toronto.edu/pub/OpenBSD/ stable main
-
+deb https://repo.anaconda.com/pkgs/main noarch main
+deb https://repo.anaconda.com/pkgs/free noarch main
 
 
 deb http://apt.puppetlabs.com stable main
