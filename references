@@ -1,5 +1,11 @@
 ##notes perso pour 
 
+deb https://mirror.planetunix.net/pub/OpenBSD/ stable main
+deb https://ftp.openbsd.org/pub/OpenBSD/ stable main
+deb https://openbsd.cs.toronto.edu/pub/OpenBSD/ stable main
+
+
+
 deb http://apt.puppetlabs.com stable main
 deb http://snapshot.debian.org/debian bullseye main
 deb     https://snapshot.debian.org/archive/debian/ bullseye main
