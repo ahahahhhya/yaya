@@ -3,7 +3,7 @@
 deb [arch=arm64 signed-by=/usr/share/keyrings/elastic-7.x.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main
 deb https://formulae.brew.sh/ homebrew main
 deb http://pkg.freebsd.org/ free-bsd main
-
+deb https://lib.rs/ rust main
 
 deb https://mirror.planetunix.net/pub/OpenBSD/ stable main
 deb https://ftp.openbsd.org/pub/OpenBSD/ stable main
