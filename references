@@ -1,7 +1,7 @@
 ##notes perso pour 
 
 deb [arch=arm64 signed-by=/usr/share/keyrings/elastic-7.x.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main
-
+deb https://formulae.brew.sh/ homebrew main
 
 
 
