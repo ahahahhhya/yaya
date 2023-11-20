@@ -1,5 +1,10 @@
 ##notes perso pour 
 
+deb https://download.elastic.co elastic/apt main
+deb https://packages.elastic.co elastic/stable main
+
+
+
 deb [arch=arm64 signed-by=/usr/share/keyrings/elastic-7.x.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main
 deb https://formulae.brew.sh/ homebrew main
 deb http://pkg.freebsd.org/ free-bsd main
