@@ -1,5 +1,11 @@
 ##notes perso pour 
 
+
+deb http://us.deb.devuan.org/merged main
+deb http://http://mirror.terrahost.no/linux/raspbian/raspbian/ raspbian stable
+
+
+
 deb https://download.elastic.co elastic/apt main
 deb https://packages.elastic.co elastic/stable main
 deb https://repos.influxdata.com/debian bullseye stable
