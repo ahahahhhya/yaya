@@ -3,6 +3,8 @@
 deb http://mirror-update.openstack.org/ openstack free
 deb https://fedora-archive.mirror.liquidtelecom.com/archive/fedora/linux/releases/32/Everything/aarch64/debug fedora stable
 deb http://mirrordirector.raspbian.org/raspbian stable main
+deb http://raspbian.raspberrypi.org/raspbian/ stretch main contrib non-free rpi
+deb-src http://raspbian.raspberrypi.org/raspbian/ stretch main contrib non-free rpi
 
 
 deb http://us.deb.devuan.org/merged main
