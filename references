@@ -1,6 +1,9 @@
 ##notes perso pour 
 
 deb http://mirror-update.openstack.org/ openstack free
+deb https://fedora-archive.mirror.liquidtelecom.com/archive/fedora/linux/releases/32/Everything/aarch64/debug fedora stable
+
+
 
 deb http://us.deb.devuan.org/merged main
 deb http://http://mirror.terrahost.no/linux/raspbian/raspbian/ raspbian stable
