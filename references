@@ -1,5 +1,11 @@
 ##notes perso pour 
 
+packages.cloudfoundry.org/debian stable main
+
+
+
+
+
 deb http://mirror-update.openstack.org/ openstack free
 deb https://fedora-archive.mirror.liquidtelecom.com/archive/fedora/linux/releases/32/Everything/aarch64/debug fedora stable
 deb http://mirrordirector.raspbian.org/raspbian stable main
