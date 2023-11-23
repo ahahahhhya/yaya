@@ -6,6 +6,11 @@ deb https://pkg.kali.org/derivative/kali-dev/ kali-dev main
 deb http://binaries2.erlang-solutions.com/ubuntu/ jammy-esl-erlang-25 contrib
 deb http://binaries2.erlang-solutions.com/debian/ bullseye-elixir-1.15 contrib
 deb http://binaries2.erlang-solutions.com/ubuntu/ bionic-mongooseim-6 contrib
+deb http://binaries2.erlang-solutions.com/debian/pool/contrib/e/elixir/elixir_1.14.0_1_otp_25.1~debian~bullseye_all.deb
+./configure && make && make install
+
+
+
 
 
 
