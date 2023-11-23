@@ -1,7 +1,7 @@
 ##notes perso pour 
 
 packages.cloudfoundry.org/debian stable main
-
+deb https://pkg.kali.org/derivative/kali-dev/ kali-dev main
 
 
 
