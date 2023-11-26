@@ -8,7 +8,7 @@ deb https://america.archive.pkgbuild.com/repos/month/sources/ packages/stable ma
 
 deb https://dl.fedoraproject.org/pub/epel/ epel release
 deb https://dl.fedoraproject.org/pub/fedora/linux/core/ development main 
-
+deb https://apt.kubernetes.io apt/stable main
 
 
 
