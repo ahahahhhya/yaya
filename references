@@ -4,6 +4,10 @@ deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+arch
 deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy-updates main
 deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy-security main
 deb https://america.archive.pkgbuild.com/packages/ stable main
+deb https://america.archive.pkgbuild.com/repos/month/sources/ packages/stable main
+
+
+
 
 
 
