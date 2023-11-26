@@ -1,8 +1,17 @@
 ##notes perso pour 
 
+deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy main
+deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy-updates main
+deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy-security main
+
+
+
+
+
+
+
 packages.cloudfoundry.org/debian stable main
 deb https://pkg.kali.org/derivative/kali-dev/ kali-dev main
-
 deb https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/linux/ stable main
 deb https://downloads.apache.org/apache2/ stable main
 deb https://mirror.openshift.com/packages/ stable main
