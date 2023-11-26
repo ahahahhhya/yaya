@@ -7,7 +7,7 @@ deb https://america.archive.pkgbuild.com/packages/ stable main
 deb https://america.archive.pkgbuild.com/repos/month/sources/ packages/stable main
 
 deb https://dl.fedoraproject.org/pub/epel/ epel release
-
+deb https://dl.fedoraproject.org/pub/fedora/linux/core/ development main 
 
 
 
