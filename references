@@ -6,6 +6,11 @@ deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+arch
 deb https://america.archive.pkgbuild.com/packages/ stable main
 deb https://america.archive.pkgbuild.com/repos/month/sources/ packages/stable main
 
+deb http://mirrors.kernel.org/sourceware/ stable main
+deb http://flathub.org/ flatpak main
+
+
+
 deb https://dl.fedoraproject.org/pub/epel/ epel release
 deb https://dl.fedoraproject.org/pub/fedora/linux/core/ development main 
 deb https://apt.kubernetes.io apt/stable main
