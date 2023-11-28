@@ -7,6 +7,9 @@ deb https://america.archive.pkgbuild.com/packages/ stable main
 deb https://america.archive.pkgbuild.com/repos/month/sources/ packages/stable main
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com/ stable main
 
+
+deb https://repo.waydro.id/ bullseye main
+
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com/ terraform main
 
 
