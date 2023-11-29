@@ -7,8 +7,10 @@ deb https://america.archive.pkgbuild.com/packages/ stable main
 deb https://america.archive.pkgbuild.com/repos/month/sources/ packages/stable main
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com/ stable main
 
-deb http://distro.ibiblio.org/blackarch/ blackarch main
 
+
+deb http://distro.ibiblio.org/blackarch/ blackarch main
+deb http://httpd.apache.org/ httpd main
 
 
 deb https://repo.waydro.id/ bullseye main
