@@ -10,7 +10,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.re
 deb http://plugin.org.uk/ latest/stable main
 
 deb https://dl.flathub.org/repo/flathub.flatpakrepo/ gnu/linux main
-
+deb https://salsa.debian.org/debian/wireshark stable/latest release
 
 
 
