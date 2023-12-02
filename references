@@ -25,7 +25,7 @@ deb https://mega.nz/linux/repo/Debian_11/ stable/latest main
 deb http://mirrors.dotsrc.org/ stable main
 deb https://salsa.debian.org/debian/wireshark stable/latest release
 deb https://invisible-mirror.net/archives/xter/ Perl/Stable main
-
+deb https://download-cf.jetbrains.com/idea/ ideaIC-2023.2.5 debian
 
 deb http://distro.ibiblio.org/blackarch/ blackarch main
 deb http://httpd.apache.org/ httpd main
