@@ -15,7 +15,7 @@ deb http://ftp.dk.debian.org/ dotsrc main
 deb https://mega.nz/linux/repo/Debian_11/ stable/latest main
 deb http://mirrors.dotsrc.org/ stable main
 deb https://salsa.debian.org/debian/wireshark stable/latest release
-
+deb https://invisible-mirror.net/archives/xter/ Perl/Stable main
 
 
 deb http://distro.ibiblio.org/blackarch/ blackarch main
