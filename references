@@ -10,10 +10,8 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.re
 deb http://plugin.org.uk/ latest/stable main
 
 deb https://dl.flathub.org/repo/flathub.flatpakrepo/ gnu/linux main
-
-wget https://mega.nz/linux/repo/Debian_11/amd64/megasync-Debian_11_amd64.deb && $sudo apt install "$PWD/megasync-Debian_11_amd64.deb"
-
-
+deb https://mega.nz/linux/repo/Debian_11/ stable/latest main
+deb http://mirrors.dotsrc.org/ stable main
 deb https://salsa.debian.org/debian/wireshark stable/latest release
 
 
