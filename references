@@ -11,6 +11,7 @@ deb http://plugin.org.uk/ latest/stable main
 
 deb https://dl.flathub.org/repo/flathub.flatpakrepo/ gnu/linux main
 
+deb https://packages.openmediavault.org/ stable main
 deb http://repo.kali.org/kali kali main non-free contrib
 deb-src http://repo.kali.org/kali kali main non-free contrib
 ## Security updates
