@@ -59,7 +59,7 @@ deb https://mirror.openshift.com/packages/ stable main
 deb http://binaries2.erlang-solutions.com/ubuntu/ jammy-esl-erlang-25 contrib
 deb http://binaries2.erlang-solutions.com/debian/ bullseye-elixir-1.15 contrib
 deb http://binaries2.erlang-solutions.com/ubuntu/ bionic-mongooseim-6 contrib
-deb http://binaries2.erlang-solutions.com/debian/pool/contrib/e/elixir/elixir_1.14.0_1_otp_25.1~debian~bullseye_all.deb
+deb http://binaries2.erlang-solutions.com/debian/pool/contrib/e/elixir/elixir_1.14.0_1_otp_25.1~debian~bullseye_all.deb 
 curl -sfL https://get-kk.kubesphere.io | VERSION=v3.0.7 sh -
 https://get-kk.kubesphere.io kubesphere main
 
