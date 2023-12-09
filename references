@@ -1,5 +1,9 @@
 ##notes perso pour 
 
+
+deb http://mirror.ppa.trinitydesktop.org/trinity/deb/trinity-r14.1.x bullseye/main deps
+
+
 deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy main
 deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy-updates main
 deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy-security main
