@@ -4,6 +4,18 @@
 deb http://mirror.ppa.trinitydesktop.org/trinity/deb/trinity-r14.1.x bullseye/main deps
 
 
+
+$sudo aptitude update
+$sudo apt-get update && $sudo aptitude install tde-i18n-cs-trinity
+
+
+
+
+
+
+
+
+
 deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy main
 deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy-updates main
 deb [signed-by=/usr/share/keyrings/ubuntu.gpg]https://launchpad.net/ubuntu/+archivemirrors jammy-security main
