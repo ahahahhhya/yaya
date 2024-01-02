@@ -3,6 +3,7 @@
 
 deb http://mirror.ppa.trinitydesktop.org/trinity/deb/trinity-r14.1.x bullseye/main deps
 
+deb https://slackpkg.org/stable/LATEST-IS stable main
 
 
 $sudo aptitude update
